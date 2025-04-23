@@ -1,0 +1,123 @@
+header{
+    background-color: #2a3c4f;
+    padding: 20px 40px;
+    color: white
+}
+
+.contenedor-seccion-header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    height: 80px;
+}
+
+.navbar .nav{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 10;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav li a.active{
+    background-color: #1dd4b7;
+    color: white;
+}
+
+.hero-text{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.hero-text h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.hero-text p{
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section{
+    padding-bottom: 4em;
+}
+
+.trabajo,
+.equipo {
+    text-align: center;
+}
+
+.trabajo h2 span{
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.servicio{
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    margin: 1.5em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.servicio img{
+    width: 60px;
+    height: 60px;
+}
+
+.servicio h3{
+    color: #1abc9c;
+}
+
+.titulo-seccion{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.equipo-listado{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.persona{
+    background-color: #f2f2f2;
+    padding: 1em;
+    border-radius: 8px;
+    width: 250px;
+    color: #2c3e50;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.persona img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.persona:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+}
+
